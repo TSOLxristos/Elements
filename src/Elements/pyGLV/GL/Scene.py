@@ -48,7 +48,7 @@ class Scene():
     
     
     def init(self, sdl2 = True, imgui = False, windowWidth = None, windowHeight = None, windowTitle = None,
-            customImGUIdecorator = None, openGLversion = 4, windowClass = None, imgui_bundle = True):
+            customImGUIdecorator = None, openGLversion = 4, windowClass = None, imgui_bundle = False):
         """call the init() of all systems attached to this Scene based on the Visitor pattern
 
         ``imgui_bundle`` is enabled by default when available. Pass ``False`` to force classic
